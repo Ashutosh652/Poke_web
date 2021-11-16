@@ -1,0 +1,25 @@
+.Card__block {
+    display: flex;
+    justify-content: center;
+  height: 426px;
+  max-width: 300px;
+  background: #39394a;
+  /* border-radius: 6px; */
+  padding: 29px;
+  /* border: 5px solid #9494a4; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.Card__img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 270px;
+  height: 100px;
+  background: #EE964B;
+}
+
+.Card__content {
+  background: #F95738;
+  /* color: white; */
+}
