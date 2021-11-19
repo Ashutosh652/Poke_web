@@ -3,14 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import storeProvider from "./Routes/Home";
 
 ReactDOM.render(
-  <storeProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </storeProvider>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 

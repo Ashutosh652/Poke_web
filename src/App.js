@@ -1,16 +1,17 @@
-import React, { useState, useEffect, useContext } from "react";
-import { getAllPokemon, getPokemon } from "./Services/pokemon";
-import Card from "./Components/Card/Card";
+import React from "react";
 import Home from "./Routes/Home";
+import Navbar from "./Components/Navbar/Index";
 import "./App.css";
-import Grid from "@mui/material/Grid";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Home />
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,20 @@
+.nav__button {
+  display: flex;
+  justify-content: space-between;
+  background: #39394a;
+  /* background: red; */
+}
+
+.nav__button__prev {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.nav__button__next {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.nav__col {
+  background-color: red;
+}

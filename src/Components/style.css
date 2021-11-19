@@ -1,6 +1,6 @@
 .Card__block {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   height: 426px;
   max-width: 300px;
   background: #39394a;
@@ -16,10 +16,9 @@
   margin: auto;
   width: 270px;
   height: 100px;
-  background: #EE964B;
+  background: #ee964b;
 }
 
 .Card__content {
-  background: #F95738;
-  /* color: white; */
+  background: #f95738;
 }
