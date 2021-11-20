@@ -64,7 +64,7 @@ export default function Home() {
         <h1>Loading...</h1>
       ) : (
         <>
-          <Grid container spacing={0} sx={{ marginTop: "40px" }}>
+          <Grid container spacing={0} sx={{ marginTop: "60px" }}>
             {pokemonData.map((pokemon, i) => {
               return <Card key={i} pokemon={pokemon} />;
             })}
