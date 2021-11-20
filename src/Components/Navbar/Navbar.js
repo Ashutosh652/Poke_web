@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -80,7 +81,7 @@ export default function NavBar(props) {
               component="div"
               sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
             >
-              Pokemon
+              <Link to={"/"} style={{ textDecoration: "None", color: "white" }}>Pokemon</Link>
             </Typography>
             <Search>
               <SearchIconWrapper>

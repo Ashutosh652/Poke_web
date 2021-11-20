@@ -1,10 +1,10 @@
 import React from "react";
 import { useState, useEffect, createContext } from "react";
-import { getPokemon, getAllPokemon } from "../Services/pokemon";
-import Card from "../Components/Card/Index";
+import { getPokemon, getAllPokemon } from "../../Services/pokemon";
+import Card from "../../Components/Card/Index";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
-import "./style.css";
+import "../style.css";
 
 export const storeContext = createContext(null);
 
@@ -34,6 +34,7 @@ export default function Home() {
       })
     );
     setPokemonData(_pokemonData);
+    console.log(_pokemonData);
   };
 
   const next = async () => {
@@ -63,19 +64,7 @@ export default function Home() {
         <h1>Loading...</h1>
       ) : (
         <>
-          {/* <div className="nav__button">
-            <div className="nav__button__prev">
-              <Button variant="contained" onClick={prev}>
-                Prev
-              </Button>
-            </div>
-            <div className="nav__button__next">
-              <Button variant="contained" onClick={next}>
-                Next
-              </Button>
-            </div>
-          </div> */}
-          <Grid container spacing={0} sx={{marginTop:'40px'}}>
+          <Grid container spacing={0} sx={{ marginTop: "40px" }}>
             {pokemonData.map((pokemon, i) => {
               return <Card key={i} pokemon={pokemon} />;
             })}
