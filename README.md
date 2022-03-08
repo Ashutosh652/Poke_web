@@ -1,3 +1,8 @@
+View and Browse pokemons and see their details.
+Used PokeAPI: https://pokeapi.co/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
